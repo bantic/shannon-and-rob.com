@@ -1,0 +1,29 @@
+.nav-container {
+  text-align: center;
+
+  .nav {
+    padding: 19px 2em;
+    margin: -43px auto 0 auto;
+    font-size: 26px;
+    line-height: 26px;
+    width: 50%;
+    background-image: url(/images/patterns/p6.png);
+  }
+
+  .nav li {
+    display: inline-block;
+  }
+
+  .zag {
+    height: 25px;
+    background-image: url(/images/patterns/zag.png);
+    background-repeat: repeat-x;
+  }
+}
+
+.hero {
+  max-width: 100%;
+  margin-bottom: 2em;
+
+  img { max-width: 100%; }
+}
