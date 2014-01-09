@@ -38,3 +38,40 @@
 
   img { max-width: 100%; }
 }
+
+.container {
+  min-width: 960px;
+}
+
+.section {
+  clear: both;
+
+  .header {
+    float: left;
+    width: 140px;
+    border-bottom: none;
+    margin-right: 30px;
+
+    font-family: "ff-nuvo-web-pro",sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  .body {
+    width: 380px;
+    float: left;
+  }
+
+  .sidebar {
+    width: 380px;
+    float: left;
+  }
+
+  .subheader {
+    font-family: "ff-nuvo-web-pro",sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 7px auto;
+  }
+
+}
