@@ -1,0 +1,102 @@
+.nav-container {
+  text-align: center;
+  background-image: url(/images/patterns/p6.png);
+  width: 100%;
+
+  &.stuck {
+    position: fixed;
+    top: 0px;
+  }
+
+  .nav-inner {
+    background-image: url(/images/patterns/zag.png);
+    background-repeat: repeat-x;
+    background-position: center;
+  }
+
+  ul.nav {
+    padding: 10px 0 2px 0;
+    margin: 0 auto;
+    font-size: 24px;
+    line-height: 24px;
+    width: 780px;
+    background-image: url(/images/patterns/p6.png);
+
+    li {
+      display: inline-block;
+      font-family: "ff-nuvo-web-pro",sans-serif;
+      font-weight: bold;
+
+      a {
+        border-bottom: 5px solid transparent;
+        color: #000;
+        text-transform: uppercase;
+        padding: none;
+      }
+      a.active, a:hover {
+        border-bottom: 5px solid #CBD500;
+        background-color: rgba(0,0,0,0); /* override bootstrap background */
+      }
+    }
+  }
+}
+
+.hero {
+  max-width: 100%;
+  margin-bottom: 2em;
+
+  img { max-width: 100%; }
+}
+
+.container {
+  min-width: 960px;
+}
+
+.section {
+  clear: both;
+
+  .header {
+    float: left;
+    width: 140px;
+    border-bottom: none;
+    margin-right: 30px;
+
+    font-family: "ff-nuvo-web-pro",sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  .body {
+    width: 380px;
+    float: left;
+  }
+
+  .sidebar {
+    width: 380px;
+    float: left;
+  }
+
+  .subheader {
+    font-family: "ff-nuvo-web-pro",sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    margin: 7px auto;
+  }
+
+}
+
+.footer {
+  padding: none; /* override defaults */
+  color: inherit; /* override defaults */
+  border-top: none; /* override defaults */
+
+  margin-top: 2em;
+  .banner {
+    padding: 5px 0;
+    text-align: center;
+    background-color: #68BCA5;
+
+    font-size: 24px;
+    color: black;
+  }
+}

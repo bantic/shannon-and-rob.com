@@ -16,7 +16,7 @@
         <!-- endbuild -->
         <!-- build:css(.tmp) styles/main.css -->
         <link rel="stylesheet" href="styles/main.css">
-        <link rel="stylesheet" href="styles/deemings.css">
+        <link rel="stylesheet" href="styles/shannon-and-rob.css">
         <!-- endbuild -->
         <script src="bower_components/modernizr/modernizr.js"></script>
 
@@ -34,13 +34,14 @@
         </div>
 
         <div class='nav-container'>
-          <div class='zag'></div>
-          <ul class='nav'>
-            <li><a href='#wedding-events'>Wedding Events</a></li>
-            <li><a href='#venue'>Venue</a></li>
-            <li><a href='#things-to-do'>Things to do</a></li>
-            <li><a href='#registry'>Registry</a></li>
-          </ul>
+          <div class='nav-inner'>
+            <ul class='nav'>
+              <li><a href='#wedding-events'>Wedding Events</a></li>
+              <li><a href='#venue'>Venue</a></li>
+              <li><a href='#things-to-do'>Things to do</a></li>
+              <li><a href='#registry'>Registry</a></li>
+            </ul>
+          </div>
         </div>
 
         <div class='hero'>
@@ -113,11 +114,17 @@
           </div>
         </div>
 
-        <div style='height:3000px'></div>
+        <div class='footer'>
+          <div class='banner'>
+            <img src='/images/dancing.png' alt='Bring Your Dancing Shoes' />
+          </div>
+        </div>
 
         <!-- build:js scripts/vendor.js -->
         <!-- bower:js -->
         <script src="bower_components/jquery/jquery.js"></script>
+        <script src="bower_components/jquery-waypoints/waypoints.js"></script>
+        <script src="bower_components/jquery-waypoints/shortcuts/sticky-elements/waypoints-sticky.js"></script>
         <!-- endbower -->
         <!-- endbuild -->
 
