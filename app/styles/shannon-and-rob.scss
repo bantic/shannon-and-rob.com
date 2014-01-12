@@ -128,11 +128,36 @@
     float: left;
   }
 
+  .inner-columns {
+    clear: both;
+    @extend .cf;
+
+    &.push-down {
+      margin-top: 2em;
+    }
+
+    .left-column {
+      float: left;
+      width: 100px;
+    }
+    .right-column {
+      float: left;
+      width: 500px;
+    }
+  }
+
   .subheader {
     font-family: "ff-nuvo-web-pro",sans-serif;
     font-size: 18px;
     line-height: 24px;
     margin: 7px auto;
+
+    &.bold {
+      font-weight: bold;
+    }
+    &.push-down {
+      margin-top: 2em;
+    }
   }
 
 }
